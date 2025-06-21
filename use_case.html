@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lahore Areas Selector</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; }
+        select { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 4px; }
+        .result { margin-top: 20px; padding: 15px; background: #f5f5f5; border-radius: 4px; }
+        .loading { color: #666; font-style: italic; }
+    </style>
+</head>
+<body>
+    <h2>Lahore Areas Selector</h2>
+    
+    <label for="mainArea">Main Area:</label>
+    <select id="mainArea" disabled>
+        <option value="">Loading areas...</option>
+    </select>
+    
+    <label for="subArea">Sub Area:</label>
+    <select id="subArea" disabled>
+        <option value="">-- Select Main Area First --</option>
+    </select>
+    
+    <div class="result" id="selectedArea"></div>
+
+    <script>
+        // DOM elements
+        const mainSelect = document.getElementById('mainArea');
+        const subSelect = document.getElementById('subArea');
+        const resultDiv = document.getElementById('selectedArea');
+        let areaData = {};
+
+        // Load JSON data
+        fetch('areas.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                areaData = data.areas;
+                populateMainAreas();
+            })
+            .catch(error => {
+                mainSelect.innerHTML = '<option value="">Error loading areas</option>';
+                console.error('Error loading area data:', error);
+            });
+
+        function populateMainAreas() {
+            // Clear loading message
+            mainSelect.innerHTML = '<option value="">-- Select Main Area --</option>';
+            
+            // Populate main areas
+            Object.entries(areaData).forEach(([id, area]) => {
+                const option = document.createElement('option');
+                option.value = id;
+                option.textContent = area.name;
+                mainSelect.appendChild(option);
+            });
+            
+            mainSelect.disabled = false;
+            mainSelect.addEventListener('change', updateSubAreas);
+        }
+
+        function updateSubAreas() {
+            const selectedId = mainSelect.value;
+            
+            // Reset sub-areas
+            subSelect.innerHTML = '<option value="">-- Select Sub Area --</option>';
+            subSelect.disabled = !selectedId;
+            resultDiv.textContent = '';
+            
+            if (selectedId) {
+                // Populate sub-areas
+                areaData[selectedId].sub_areas.forEach(subArea => {
+                    const option = document.createElement('option');
+                    option.value = subArea;
+                    option.textContent = subArea;
+                    subSelect.appendChild(option);
+                });
+                subSelect.disabled = false;
+                
+                // Handle sub-area selection
+                subSelect.addEventListener('change', function() {
+                    if (this.value) {
+                        resultDiv.textContent = `Selected: ${areaData[selectedId].name} -- ${this.value}`;
+                    }
+                });
+            }
+        }
+    </script>
+</body>
+</html>

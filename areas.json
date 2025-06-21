@@ -1,0 +1,563 @@
+{
+  "total_areas": 120,
+  "areas": {
+    "LHE_001": {
+      "name": "Anarkali",
+      "sub_areas": ["Anarkali Bazaar", "Anarkali Tomb"]
+    },
+    "LHE_002": {
+      "name": "Badami Bagh",
+      "sub_areas": ["Badami Bagh Wholesale Market", "Badami Bagh Railway Colony"]
+    },
+    "LHE_003": {
+      "name": "Baghbanpura",
+      "sub_areas": ["Baghbanpura Flower Market", "Shalimar Gardens"]
+    },
+    "LHE_004": {
+      "name": "Data Darbar",
+      "sub_areas": ["Data Nagar", "Bibi Pak Daman"]
+    },
+    "LHE_005": {
+      "name": "Heera Mandi",
+      "sub_areas": ["Taxali Gate", "Mochi Gate"]
+    },
+    "LHE_006": {
+      "name": "Lahore Fort",
+      "sub_areas": ["Alamgiri Gate", "Naulakha Pavilion", "Sheesh Mahal"]
+    },
+    "LHE_007": {
+      "name": "Mochi Bagh",
+      "sub_areas": ["Mochi Bagh Ground", "Mochi Bagh Housing Scheme"]
+    },
+    "LHE_008": {
+      "name": "Lahore Cantonment",
+      "sub_areas": [
+        "Askari 1", "Askari 2", "Askari 3", "Askari 4", "Askari 5", 
+        "Askari 6", "Askari 7", "Askari 8", "Askari 9", "Askari 10",
+        "Cavalry Ground", "Sarwar Road", "Tufail Road", "Shahrah-e-Quaid-e-Azam"
+      ]
+    },
+    "LHE_009": {
+      "name": "DHA",
+      "sub_areas": [
+        "Phase 1", "Phase 2", "Phase 3", "Phase 4", 
+        "Phase 5", "Phase 6", "Phase 7", "Phase 8",
+        "Phase 9", "Phase 10", "Y-Block", "Commercial Area"
+      ]
+    },
+    "LHE_010": {
+      "name": "Bahria Town",
+      "sub_areas": [
+        "Phase 1", "Phase 2", "Phase 3",
+        "Phase 4", "Phase 5", "Commercial"
+      ]
+    },
+    "LHE_011": {
+      "name": "Gulberg",
+      "sub_areas": [
+        "Gulberg 1", "Gulberg 2", "Gulberg 3", "Gulberg 4", "Gulberg 5",
+        "Main Boulevard Gulberg", "MM Alam Road", "Liberty Market"
+      ]
+    },
+    "LHE_012": {
+      "name": "Model Town",
+      "sub_areas": [
+        "A Block", "B Block", "C Block",
+        "D Block", "E Block", "F Block",
+        "Model Town Park"
+      ]
+    },
+    "LHE_013": {
+      "name": "Johar Town",
+      "sub_areas": [
+        "Block A", "Block B", "Block C",
+        "Block D", "Block E", "Block F",
+        "Block G", "Block H", "Block I",
+        "Block J", "Block K", "Block L",
+        "Commercial Area", "Flyover"
+      ]
+    },
+    "LHE_014": {
+      "name": "Township",
+      "sub_areas": [
+        "Sector A", "Sector B", "Sector C",
+        "Sector D", "Sector E", "Sector F",
+        "Sector G", "Sector H", "Sector I",
+        "Sector J", "Sector K", "Sector L",
+        "Market", "Cricket Ground"
+      ]
+    },
+    "LHE_015": {
+      "name": "Allama Iqbal Town",
+      "sub_areas": [
+        "Block A", "Block B", "Block C",
+        "Block D", "Block E", "Market"
+      ]
+    },
+    "LHE_016": {
+      "name": "Faisal Town",
+      "sub_areas": [
+        "Phase 1", "Phase 2", "Phase 3",
+        "Phase 4", "Commercial"
+      ]
+    },
+    "LHE_017": {
+      "name": "Garden Town",
+      "sub_areas": [
+        "Block A", "Block B", "Block C",
+        "Market", "Park"
+      ]
+    },
+    "LHE_018": {
+      "name": "WAPDA Town",
+      "sub_areas": [
+        "Phase 1", "Phase 2", "Phase 3",
+        "Commercial"
+      ]
+    },
+    "LHE_019": {
+      "name": "Valencia Town",
+      "sub_areas": [
+        "Block A1", "Block A2", "Block A3",
+        "Block C", "Block F", "Block G",
+        "Block H", "Block H1", "Block J",
+        "Block K1", "Block L", "Block P1"
+      ]
+    },
+    "LHE_020": {
+      "name": "New Housing Societies",
+      "sub_areas": [
+        "LDA Avenue 1", "LDA Avenue 2", "Central Park", "Al Jalil Gardens",
+        "Park View City", "New City Paradise", "Capital Smart City",
+        "Lahore Smart City", "8th Avenue Residencia", "Orchid Avenue",
+        "The Fortress", "Royal Residencia"
+      ]
+    },
+    "LHE_021": {
+      "name": "Commercial Areas",
+      "sub_areas": [
+        "Liberty Market", "MM Alam Road", "Gulberg Main Boulevard",
+        "Fortress Stadium", "Packages Mall", "Emporium Mall",
+        "Iqbal Town Market", "Harbanspura Market", "Ichhra Bazaar",
+        "Hall Road (Electronics)", "Baghbanpura Flower Market",
+        "Gawalmandi Food Street", "Fort Road Food Street"
+      ]
+    },
+    "LHE_022": {
+      "name": "Industrial Areas",
+      "sub_areas": [
+        "Kot Lakhpat Industrial Estate", "Quaid-e-Azam Industrial Estate",
+        "Sundar Industrial Estate", "Batala Colony", "Sitara Colony"
+      ]
+    },
+    "LHE_023": {
+      "name": "Educational Institutions",
+      "sub_areas": [
+        "Punjab University (New Campus)", "Punjab University (Old Campus)",
+        "University of Engineering and Technology (UET)", "LUMS University",
+        "Government College University (GCU)", "King Edward Medical University"
+      ]
+    },
+    "LHE_024": {
+      "name": "Hospitals",
+      "sub_areas": [
+        "Shaukat Khanum Memorial Hospital", "Mayo Hospital",
+        "Services Hospital", "Children's Hospital", "Ganga Ram Hospital"
+      ]
+    },
+    "LHE_025": {
+      "name": "Religious Sites",
+      "sub_areas": [
+        "Badshahi Mosque", "Wazir Khan Mosque", "Data Darbar",
+        "Bibi Pak Daman", "Shrine of Madho Lal Hussain"
+      ]
+    },
+    "LHE_026": {
+      "name": "Parks/Recreational",
+      "sub_areas": [
+        "Jallo Park", "Race Course Park", "Baghi Jinnah",
+        "Lahore Zoo", "Safari Park", "Model Town Park"
+      ]
+    },
+    "LHE_027": {
+      "name": "Important Roads",
+      "sub_areas": [
+        "Main Boulevard Gulberg", "The Mall Road", "Ferozepur Road",
+        "Multan Road", "Jail Road", "Canal Bank Road",
+        "Lahore Ring Road", "GT Road (Grand Trunk Road)"
+      ]
+    },
+    "LHE_028": {
+      "name": "Shadman",
+      "sub_areas": ["Shadman Colony", "Shadman Market"]
+    },
+    "LHE_029": {
+      "name": "Muslim Town",
+      "sub_areas": ["Block A", "Block B"]
+    },
+    "LHE_030": {
+      "name": "Samanabad",
+      "sub_areas": ["Block A", "Block B"]
+    },
+    "LHE_031": {
+      "name": "Sabzazar",
+      "sub_areas": ["Scheme 1", "Scheme 2"]
+    },
+    "LHE_032": {
+      "name": "Iqbal Colony",
+      "sub_areas": ["Block A", "Block B"]
+    },
+    "LHE_033": {
+      "name": "Green Town",
+      "sub_areas": ["Block A", "Block B"]
+    },
+    "LHE_034": {
+      "name": "Nishtar Colony",
+      "sub_areas": ["Block A", "Block B"]
+    },
+    "LHE_035": {
+      "name": "Ravi Town",
+      "sub_areas": ["Block A", "Block B"]
+    },
+    "LHE_036": {
+      "name": "Shahdara",
+      "sub_areas": ["Shahdara Town", "Shahdara Bagh"]
+    },
+    "LHE_037": {
+      "name": "Mughalpura",
+      "sub_areas": ["Mughalpura Cantt", "Mughalpura Workshop"]
+    },
+    "LHE_038": {
+      "name": "Kot Lakhpat",
+      "sub_areas": ["Industrial Area", "Residential"]
+    },
+    "LHE_039": {
+      "name": "Thokar Niaz Baig",
+      "sub_areas": ["Main", "Housing"]
+    },
+    "LHE_040": {
+      "name": "Raiwind",
+      "sub_areas": ["Raiwind Road", "Raiwind Farms"]
+    },
+    "LHE_041": {
+      "name": "Barki",
+      "sub_areas": ["Barki Road", "Barki Cantt"]
+    },
+    "LHE_042": {
+      "name": "Wahga",
+      "sub_areas": ["Wahga Border", "Wahga Village"]
+    },
+    "LHE_043": {
+      "name": "Lake City",
+      "sub_areas": ["Phase 1", "Phase 2"]
+    },
+    "LHE_044": {
+      "name": "Askari",
+      "sub_areas": ["Askari 11", "Askari 12"]
+    },
+    "LHE_045": {
+      "name": "Defence",
+      "sub_areas": ["Phase 1", "Phase 2"]
+    },
+    "LHE_046": {
+      "name": "Cantt",
+      "sub_areas": ["Cantt View", "Cantt Residence"]
+    },
+    "LHE_047": {
+      "name": "Gajjumata",
+      "sub_areas": ["East", "West"]
+    },
+    "LHE_048": {
+      "name": "Jia Bagga",
+      "sub_areas": ["North", "South"]
+    },
+    "LHE_049": {
+      "name": "Pandoke",
+      "sub_areas": ["East", "West"]
+    },
+    "LHE_050": {
+      "name": "Kahna",
+      "sub_areas": ["Kahna Nau", "Kahna Kacha"]
+    },
+    "LHE_051": {
+      "name": "Burki",
+      "sub_areas": ["Burki Road", "Burki Village"]
+    },
+    "LHE_052": {
+      "name": "Chung",
+      "sub_areas": ["Chung Amar Sadhu", "Chung Khurd"]
+    },
+    "LHE_053": {
+      "name": "Maraka",
+      "sub_areas": ["North", "South"]
+    },
+    "LHE_054": {
+      "name": "Hadiara",
+      "sub_areas": ["Border", "Village"]
+    },
+    "LHE_055": {
+      "name": "Bhatta Chowk",
+      "sub_areas": ["East", "West"]
+    },
+    "LHE_056": {
+      "name": "Jallo",
+      "sub_areas": ["Jallo Park", "Jallo Village"]
+    },
+    "LHE_057": {
+      "name": "Kala Shah Kaku",
+      "sub_areas": ["Main", "Bypass"]
+    },
+    "LHE_058": {
+      "name": "Sukh Chayn",
+      "sub_areas": ["Gardens", "Residencia"]
+    },
+    "LHE_059": {
+      "name": "Canal View",
+      "sub_areas": ["Housing", "Extension"]
+    },
+    "LHE_060": {
+      "name": "Engineers Town",
+      "sub_areas": ["Phase 1", "Phase 2"]
+    },
+    "LHE_061": {
+      "name": "Doctors Town",
+      "sub_areas": ["Block A", "Block B"]
+    },
+    "LHE_062": {
+      "name": "Punjab Society",
+      "sub_areas": ["Phase 1", "Phase 2"]
+    },
+    "LHE_063": {
+      "name": "State Life",
+      "sub_areas": ["Phase 1", "Phase 2"]
+    },
+    "LHE_064": {
+      "name": "Sui Gas",
+      "sub_areas": ["Society Phase 1", "Society Phase 2"]
+    },
+    "LHE_065": {
+      "name": "PCSIR",
+      "sub_areas": ["Phase 1", "Phase 2"]
+    },
+    "LHE_066": {
+      "name": "OPF",
+      "sub_areas": ["Phase 1", "Phase 2"]
+    },
+    "LHE_067": {
+      "name": "NFC",
+      "sub_areas": ["Society Phase 1", "Society Phase 2"]
+    },
+    "LHE_068": {
+      "name": "Nespak",
+      "sub_areas": ["Society Phase 1", "Society Phase 2"]
+    },
+    "LHE_069": {
+      "name": "PIA",
+      "sub_areas": ["Society Block A", "Society Block B"]
+    },
+    "LHE_070": {
+      "name": "Eden",
+      "sub_areas": ["Villas", "Residencia"]
+    },
+    "LHE_071": {
+      "name": "Canal",
+      "sub_areas": ["Gardens", "Residencia"]
+    },
+    "LHE_072": {
+      "name": "Izmir",
+      "sub_areas": ["Town Phase 1", "Town Phase 2"]
+    },
+    "LHE_073": {
+      "name": "Tricon",
+      "sub_areas": ["Valley Phase 1", "Valley Phase 2"]
+    },
+    "LHE_074": {
+      "name": "Jubli",
+      "sub_areas": ["Town Phase 1", "Town Phase 2"]
+    },
+    "LHE_075": {
+      "name": "Muhafiz",
+      "sub_areas": ["Town Phase 1", "Town Phase 2"]
+    },
+    "LHE_076": {
+      "name": "LDA",
+      "sub_areas": ["Avenue 1", "Avenue 2"]
+    },
+    "LHE_077": {
+      "name": "Al Jalil",
+      "sub_areas": ["Phase 1", "Phase 2"]
+    },
+    "LHE_078": {
+      "name": "Park View",
+      "sub_areas": ["City Phase 1", "City Phase 2"]
+    },
+    "LHE_079": {
+      "name": "New City",
+      "sub_areas": ["Paradise Phase 1", "Paradise Phase 2"]
+    },
+    "LHE_080": {
+      "name": "Capital Smart",
+      "sub_areas": ["City Phase 1", "City Phase 2"]
+    },
+    "LHE_081": {
+      "name": "Lahore Smart",
+      "sub_areas": ["City Phase 1", "City Phase 2"]
+    },
+    "LHE_082": {
+      "name": "8th Avenue",
+      "sub_areas": ["Residencia Phase 1", "Residencia Phase 2"]
+    },
+    "LHE_083": {
+      "name": "Orchid",
+      "sub_areas": ["Avenue Phase 1", "Avenue Phase 2"]
+    },
+    "LHE_084": {
+      "name": "Fortress",
+      "sub_areas": ["Phase 1", "Phase 2"]
+    },
+    "LHE_085": {
+      "name": "Royal",
+      "sub_areas": ["Residencia Phase 1", "Residencia Phase 2"]
+    },
+    "LHE_086": {
+      "name": "Gulshan-e-Ravi",
+      "sub_areas": ["Block A", "Block B", "Block C"]
+    },
+    "LHE_087": {
+      "name": "Ferozepur Road",
+      "sub_areas": ["Township Stop", "Barkat Market", "Chung Stop"]
+    },
+    "LHE_088": {
+      "name": "Gulshan-e-Iqbal",
+      "sub_areas": ["Park", "Market", "Phase 1"]
+    },
+    "LHE_089": {
+      "name": "Iqbal Town",
+      "sub_areas": ["Extension", "Main Market", "Phase 2"]
+    },
+    "LHE_090": {
+      "name": "Shahpur",
+      "sub_areas": ["Old City", "New Colony"]
+    },
+    "LHE_091": {
+      "name": "Gulshan Colony",
+      "sub_areas": ["Block 1", "Block 2", "Commercial"]
+    },
+    "LHE_092": {
+      "name": "Mustafa Town",
+      "sub_areas": ["Phase 1", "Phase 2", "Market"]
+    },
+    "LHE_093": {
+      "name": "Muslim Town",
+      "sub_areas": ["Extension", "Main Area"]
+    },
+    "LHE_094": {
+      "name": "Sanda",
+      "sub_areas": ["Kalan", "Khurd"]
+    },
+    "LHE_095": {
+      "name": "Tajpura",
+      "sub_areas": ["Residential", "Commercial"]
+    },
+    "LHE_096": {
+      "name": "Rehmatpur",
+      "sub_areas": ["East", "West"]
+    },
+    "LHE_097": {
+      "name": "Gulistan Colony",
+      "sub_areas": ["Block A", "Block B"]
+    },
+    "LHE_098": {
+      "name": "Shah Jamal",
+      "sub_areas": ["Old Area", "New Colony"]
+    },
+    "LHE_099": {
+      "name": "Babu Sabu",
+      "sub_areas": ["Residential", "Market"]
+    },
+    "LHE_100": {
+      "name": "Garhi Shahu",
+      "sub_areas": ["Main Market", "Colony"]
+    },
+    "LHE_101": {
+      "name": "Sodiwal",
+      "sub_areas": ["East", "West"]
+    },
+    "LHE_102": {
+      "name": "Lakshmi Chowk",
+      "sub_areas": ["Main Market", "Residential"]
+    },
+    "LHE_103": {
+      "name": "Gulshan Park",
+      "sub_areas": ["Phase 1", "Phase 2"]
+    },
+    "LHE_104": {
+      "name": "Raiwind Road",
+      "sub_areas": ["KM 10", "KM 20", "KM 30"]
+    },
+    "LHE_105": {
+      "name": "Barki Road",
+      "sub_areas": ["Sector A", "Sector B"]
+    },
+    "LHE_106": {
+      "name": "Shahdara Flyover",
+      "sub_areas": ["North Side", "South Side"]
+    },
+    "LHE_107": {
+      "name": "Ichhra",
+      "sub_areas": ["Main Market", "Residential"]
+    },
+    "LHE_108": {
+      "name": "Samnabad",
+      "sub_areas": ["Block A", "Block B"]
+    },
+    "LHE_109": {
+      "name": "Gulberg Greens",
+      "sub_areas": ["Phase 1", "Phase 2"]
+    },
+    "LHE_110": {
+      "name": "Township Sector M",
+      "sub_areas": ["Residential", "Commercial"]
+    },
+    "LHE_111": {
+      "name": "Johar Town Extension",
+      "sub_areas": ["Block M", "Block N"]
+    },
+    "LHE_112": {
+      "name": "DHA Extension",
+      "sub_areas": ["Phase 11", "Phase 12"]
+    },
+    "LHE_113": {
+      "name": "Bahria Orchard",
+      "sub_areas": ["Sector A", "Sector B"]
+    },
+    "LHE_114": {
+      "name": "Lake City Residencia",
+      "sub_areas": ["Block 1", "Block 2"]
+    },
+    "LHE_115": {
+      "name": "Gulberg Icon",
+      "sub_areas": ["Tower A", "Tower B"]
+    },
+    "LHE_116": {
+      "name": "Canal View Residencia",
+      "sub_areas": ["Phase 1", "Phase 2"]
+    },
+    "LHE_117": {
+      "name": "Askari Residencia",
+      "sub_areas": ["Block 1", "Block 2"]
+    },
+    "LHE_118": {
+      "name": "Defence Residencia",
+      "sub_areas": ["Phase 3", "Phase 4"]
+    },
+    "LHE_119": {
+      "name": "Valencia Residencia",
+      "sub_areas": ["Block Q1", "Block Q2"]
+    },
+    "LHE_120": {
+      "name": "Garden Residencia",
+      "sub_areas": ["Block D", "Block E"]
+    }
+  }
+}
