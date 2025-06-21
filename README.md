@@ -1,7 +1,7 @@
 
 # 📍 Lahore Areas Directory
 
-A simple, open-source JSON directory of **120 main areas** and **574 sub-areas** in Lahore, Pakistan.  
+A simple, open-source JSON directory of **100+ main areas** and **500+ sub-areas** in Lahore, Pakistan.  
 Perfect for use in apps, address selectors, and location-based projects.
 
 ---
