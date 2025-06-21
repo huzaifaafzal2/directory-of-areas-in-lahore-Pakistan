@@ -38,7 +38,9 @@ Perfect for use in apps, address selectors, and location-based projects.
 Check **`use_case.html`** for a working example:  
 ✔️ Dropdown selector of main areas & sub-areas  
 ✔️ Displays the selected area  
-✔️ Loads data from `areas.json`
+✔️ Loads data from `areas.json`  
+
+⚠️ **Note:** `use_case.html` should be run on a local server (like XAMPP, WAMP, Python HTTP server, etc.) to avoid CORS issues when loading `areas.json`.
 
 ---
 
